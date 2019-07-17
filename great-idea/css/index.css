@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5 {
   }
   
   /* cta */
-  
+
   .cta {
 	  display: flex;
   }
@@ -147,6 +147,7 @@ h1, h2, h3, h4, h5 {
   
   .main-content .top-content {
 	padding: 0 10px;
+	display: flex;
   }
   
   .main-content .top-content .text-content {
@@ -163,6 +164,7 @@ h1, h2, h3, h4, h5 {
   }
   
   .main-content .bottom-content {
+	display: flex;
 	margin-top: 37px;
 	padding: 0 10px;
   }
@@ -190,6 +192,7 @@ h1, h2, h3, h4, h5 {
 	margin: 32px 0;
 	text-align: center;
 	font-size: 14px;
+	font-weight: bold;
   }
 
   /* Services page css begins here */
@@ -200,7 +203,7 @@ img.services-header-img {
 
 .top{
 	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-bottom: 40px;
 }
 
 h2 {
@@ -213,11 +216,12 @@ h2 {
 	border-top: 1px solid black;
 	margin-top: 20px;
 	border-bottom: 2px solid black;
+	justify-content: space-between;
 }
 
 .middle .Box {
-    width: 400px;
-    margin: 20px;
+    width: 420px;
+    margin: 20px 0 20px 0;
     border: 1px solid black;
     background: #f5f5f5;
     padding: 20px;
@@ -235,7 +239,7 @@ button {
 }
 .bottom {
 	display: flex;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 .bottom-text {
